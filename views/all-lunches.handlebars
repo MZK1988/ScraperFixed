@@ -1,0 +1,34 @@
+{{!-- <h1>Lunches for {{eater}}</h1> --}}
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          {{#each title}}
+          <ul>
+            <li>
+              <p>{{title}}</p>
+            </li>
+          </ul>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          {{#each link}}
+          <ul>
+            <li>
+              <p>{{link}}</p>
+            </li>
+          </ul>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
