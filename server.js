@@ -21,11 +21,11 @@ mongoose.connect(MONGODB_URI);
 
 
 // Database configuration
-var databaseUrl = "scraper";
-var collections = ["scrapedData"];
+// var databaseUrl = "scraper";
+// var collections = ["scrapedData"];
 
 // Hook mongojs configuration to the db variable
-var db = mongojs(databaseUrl, collections);
+// var db = mongojs(databaseUrl, collections);
 db.on("error", function (error) {
   console.log("Database Error:", error);
 });
